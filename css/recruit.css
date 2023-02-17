@@ -1,0 +1,124 @@
+/*-------------------------recruit--------------------------*/
+.recruit-wrapper{
+    max-width: 100%;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    height: 100%;
+    background-image: url(../img/bg-geometry.png);
+    display: block;
+}
+.en-copy{
+    font-size: 7.2rem;
+    text-align: center;
+    padding-top: 110px;
+    font-weight: bold;
+    color: #391E88;
+}
+.jp-copy{
+    font-size: 3.2rem;
+    text-align: center;
+    color: #391E88;
+    margin-top: 1px;
+}
+.sub-copy{
+    margin-top: 30px;
+    text-align: center;
+}
+.section-title.recruit{
+    color: #391E88;
+    font-weight: 400;
+    font-size: 3.2rem;
+}
+.recruit-img{
+    margin: 20px 0;
+}
+.recruit-img img{
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%);
+}
+.recruit-about-wrapper{
+    padding: 0 20px;
+}
+.recruit-about{
+    max-width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    border: 1px solid #BBBBBB;
+    padding: 50px;
+}
+.recruit-about-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.recruit-list{
+    margin: 45px 0;
+}
+.recruit-item{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.recruit-title{
+    text-align: left;
+    width: 200px;
+    padding-left: 30px;
+}
+.recruit-content{
+    text-align: left;
+}
+.recruit-about p{
+    margin-top: 3px;
+    font-size: 1.2rem;
+}
+.youtube-wrapper{
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.youtube iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.contact-wrapper{
+    margin-top: 0px;
+}
+/*-------------------------//recruit--------------------------*/
+@media screen and (max-width: 768px) {
+    .en-copy{
+        font-size: 4.8rem;
+    }
+    .jp-copy{
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    .sub-copy{
+        margin-top: 20px;
+    }
+    .section-title.recruit{
+        font-size: 2.4rem;
+    }
+    .recruit-about-title{
+        font-size: 1.6rem;
+    }
+    .recruit-title{
+        padding-left: 0;
+    }
+    .recruit-item{
+        display: block;
+        padding: 15px;
+    }
+    .recruit-list{
+        margin-top: 10px;
+    }
+}
+

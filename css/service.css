@@ -1,0 +1,56 @@
+
+/*-------------------------service--------------------------*/
+.service-wrapper{
+    max-width: 1100px;
+    margin: 70px auto;
+}
+.service-list{
+}
+.service-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.service-item img{
+    width: 40%;
+}
+.service-text{
+    width: 55%;
+}
+.service-title{
+    text-align: left;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.service-about{
+    font-size: 1.5rem;
+}
+/*-------------------------//service--------------------------*/
+@media screen and (max-width: 768px){
+    .hero{
+        height: 30vh; 
+    }
+     .hero-title{
+         font-size: 4rem;
+         margin-bottom: 0px;
+    }
+     .hero-subtitle{
+         font-size: 1.3rem;
+    }
+    .service-item{
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    .service-item img{
+        width: 100%;
+    }
+    .service-title{
+        width: 100%;
+        text-align: center;
+    }
+    .service-text{
+        width: 100%;
+    }
+}

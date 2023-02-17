@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px){
+    .hero{
+        height: 30vh; 
+    }
+     .hero-title{
+         font-size: 4rem;
+         margin-bottom: 0px;
+    }
+     .hero-subtitle{
+         font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,139 @@
+/*-------------------------contact--------------------------*/
+.contact-text{
+    text-align: center;
+    margin: 70px 0 40px;
+}
+.contact-wrapper{
+    box-sizing: border-box;
+    max-width: 1100px;
+    min-width: 90%;
+    margin: 40px auto 90px;
+    padding: 50px;
+    background-color: #F7F7F7;
+}
+.form-list{
+    padding: 0 50px;
+}
+.form-label{
+    display: block;
+    margin: 30px 0 5px;
+    max-width: 1100px;
+    text-align: left;
+}
+.checkbox-list{
+    display: flex;
+    align-items: center;
+}
+.checkbox label,
+.checkbox{
+    cursor: pointer;
+}
+.checkbox{
+    border: solid 1px #282f35;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+}
+.checkbox:checked{
+    background-color: #333333;
+}
+.checkbox-item{
+    margin-left: 55px;
+}
+.checkbox-item:first-of-type{
+    margin-left: 0px;
+}
+select,input,textarea{
+    resize: none; 
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    width: 300px;
+    box-sizing: border-box;
+    display: block;
+
+}
+.input-text{
+    padding: 0 8px;
+    line-height: 30px;
+}
+.select{
+    padding: 0 30px;
+}
+textarea{
+    width: 600px;
+    height: 255px;
+    padding: 0 8px;
+    line-height: 30px;
+}
+.form-wrapper span{
+    font-size: 1rem;
+    margin-left: 20px;
+    color: #7231A1;
+}
+.checkbox-list{
+    width: 100%;
+}
+.submit-btn{
+    cursor: pointer;
+}
+/*-------------------------//contact--------------------------*/
+@media screen and (max-width: 768px){
+    .hero{
+       height: 30vh; 
+    }
+    .hero-title{
+        font-size: 4rem;
+        margin-bottom: 0px;
+    }
+    .hero-subtitle{
+        font-size: 1.3rem;
+    }
+    .contact-text{
+        margin: 40px 0 30px;
+    }
+    .contact-wrapper{
+        width: 90%;
+        padding: 0px;
+        padding-bottom: 30px;
+        margin: 20px auto 40px;
+    }
+    .form-wrapper{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 30px;
+    }
+    .form-list{
+        max-width: 100%;
+        padding: 0;
+    }
+    .form-item{
+        width: 100%;
+    }
+    .form-label{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .checkbox-list{
+        width: 100%;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .checkbox-item{
+        
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    textarea{
+        width: 100%;
+    }
+    select,input,textarea{
+        width: 100%;
+    }
+
+}
